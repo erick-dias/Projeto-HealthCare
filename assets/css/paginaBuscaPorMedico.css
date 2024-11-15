@@ -1,0 +1,226 @@
+.conteudo-completo-busca-por-medicos {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow-y: auto;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.conteudo-completo-busca-por-medicos .todo-conteudo-box {
+  width: 90%;
+  margin: auto;
+}
+
+.conteudo-completo-busca-por-medicos .search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.conteudo-completo-busca-por-medicos .search-bar select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: none;
+  background-color: white;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="%23666" d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  font-size: 1em;
+  color: #666;
+}
+
+.conteudo-completo-busca-por-medicos .search-bar select:focus {
+  outline: none;
+  border-color: #00897b;
+}
+
+.main-content {
+  display: flex;
+  height: fit-content;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.main-content .doctor-list {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content .doctor-list .doctor-card {
+  background-color: #fff;
+  height: 180px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #005e51;
+}
+
+.main-content .doctor-list .doctor-card .doctor-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.main-content .doctor-list .doctor-card .doctor-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content .doctor-list .doctor-card .doctor-info h2 {
+  display: flex;
+  font-size: 1.2em;
+  margin-bottom: 4px;
+}
+
+.main-content .doctor-list .doctor-card .doctor-info p {
+  font-size: 10px;
+  color: #666;
+}
+
+.main-content .doctor-list .doctor-card .appointment-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.main-content .doctor-list .doctor-card .appointment-info hr {
+  border: 0;
+  height: 2px;
+  background-color: #ccc;
+  margin: 5px auto;
+  width: 200px;
+}
+
+.main-content .doctor-list .doctor-card .appointment-info h3 {
+  margin-bottom: 5px;
+}
+
+.main-content .doctor-list .doctor-card .appointment-info .agendar-consulta {
+  height: max-content;
+}
+
+.main-content .doctor-list .doctor-card .appointment-info .endereco-container {
+  display: flex;
+  width: 450px;
+  justify-content: start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.main-content .doctor-list .doctor-card .appointment-info .choose-schedule {
+  background-color: #00897b;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.main-content .doctor-list .doctor-card .appointment-info .available-times {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #00897b;
+}
+
+.main-content .doctor-list .doctor-card .appointment-info .available-times p {
+  width: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  color: #000000;
+}
+
+.main-content .doctor-list .doctor-card .appointment-info .available-times button {
+  background-color: #ffffff;
+  font-weight: bold;
+  color: #005e51;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: solid 1 px;
+  border-color: #a9abad;
+  box-shadow: 1px 1px 1px #5a5858;
+}
+
+.map iframe {
+  width: 100%;
+  height: 500px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.chat-now {
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.stars {
+  width: 80px;
+}
+
+.verificado {
+  width: 17px;
+  height: 17px;
+}
+
+.escudo {
+  width: 15px;
+  height: 15px;
+}
+
+.check-coverage {
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #005e51;
+  padding: 5px 5px;
+}
+
+.day {
+  text-align: center;
+}
+
+.day button {
+  display: block;
+  margin: 5px auto;
+}
+
+.localizacao {
+  width: 15px;
+  height: 15px;
+}
+
+.agendar-consulta {
+  display: flex;
+  flex-direction: column;
+}
+
+.gpsclinica {
+  display: flex;
+  height: fit-content;
+  border-radius: 5px;
+  border: #005e51 3px solid;
+}
+
+.gpsclinica iframe {
+  height: 563px;
+  border: none;
+  border-radius: 5px;
+}

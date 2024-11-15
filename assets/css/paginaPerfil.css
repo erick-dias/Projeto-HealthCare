@@ -1,0 +1,54 @@
+.conteudo-principal-pagina-perfil {
+  background-color: #fff;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.conteudo-principal-pagina-perfil .titulo {
+  display: block;
+  width: 100%;
+  margin: 50px 0;
+  padding: 0 30px;
+}
+
+.conteudo-principal-pagina-perfil .titulo h1 {
+  color: #0b7e5c;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.conteudo-principal-pagina-perfil .box {
+  width: 90%;
+  margin: auto;
+}
+
+.conteudo-principal-pagina-perfil .box .conteudo-pagina-perfil {
+  padding: 20px;
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.conteudo-principal-pagina-perfil .conteudo-pagina-perfil h2 {
+  color: #0b7e5c;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.conteudo-principal-pagina-perfil .conteudo-pagina-perfil .card-pagina-perfil {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.card-pagina-perfil button {
+  margin-top: 10px;
+  background-color: #0b7e5c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
