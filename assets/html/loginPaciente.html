@@ -1,0 +1,26 @@
+<div class="pagina-login">
+  <div id="tipo-pagina" hidden>2</div>
+  <h1>Login Paciente</h1>
+  <p>Bem-vindo! Faça login para continuar</p>
+  <div class="conteudo-pagina-login">
+    <label for="email-paciente">Email: </label>
+    <input class="input-login" type="email" id="email-paciente" placeholder="Digite seu e-mail cadastrado" />
+  </div>
+  <div class="conteudo-pagina-login">
+    <label for="senha-paciente">Senha: </label>
+    <input class="input-login" type="password" id="senha-paciente" placeholder="Digite sua senha" />
+  </div>
+  <div class="botao-login">
+    <div>
+      <input id="mostrarSenha" type="checkbox" onclick="visualizarSenhas('senha-paciente')" />
+      <label for="mostrarSenha">Mostrar senha</label>
+      <a href="#">Esqueceu a senha?</a>
+    </div>
+
+    <button id="entrar" onclick="paginaPerfilPaciente()">Entrar</button>
+    <p>
+      Não tem uma conta?
+      <a href="#" onclick="cadastroPaciente()">Cadastre-se!</a>
+    </p>
+  </div>
+</div>

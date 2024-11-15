@@ -1,0 +1,35 @@
+<div class="pagina-login" id="pagina-cadastro">
+  <div id="tipo-pagina" hidden>2</div>
+  <h1>Cadastro Pessoal</h1>
+  <div class="conteudo-pagina-login">
+    <label for="nome-paciente">Nome do Paciente: </label>
+    <input class="input-login" type="text" id="nome-paciente" placeholder="Nome Completo" />
+  </div>
+  <div class="conteudo-pagina-login">
+    <label for="CPF-paciente">CPF: </label>
+    <input class="input-login" type="text" id="CPF-paciente" placeholder="xxx.xxx.xxx-xx" />
+  </div>
+  <div class="conteudo-pagina-login">
+    <label for="data-nascimento-paciente">Data de Nascimento: </label>
+    <input class="input-login" type="datetime" id="data-nascimento-paciente" placeholder="dd/mm/aaaa" />
+  </div>
+  <div class="conteudo-pagina-login">
+    <label for="email">Email: </label>
+    <input class="input-login" type="email" id="email" placeholder="Digite seu e-mail cadastrado" />
+  </div>
+  <div class="conteudo-pagina-login">
+    <label for="senha-cadastro-paciente">Senha: </label>
+    <input class="input-login" type="password" id="senha-cadastro-paciente" placeholder="Informe uma senha." />
+  </div>
+  <div class="conteudo-pagina-login">
+    <label for="confirmacao-senha-paciente">Confirme a senha: </label>
+    <input class="input-login" type="password" id="confirmacao-senha-paciente" placeholder="Confirme a senha." />
+  </div>
+  <div class="botao-cadastro">
+    <div>
+      <input id="mostrarSenha" type="checkbox" onclick="visualizarSenhas('senha-cadastro-paciente','confirmacao-senha-paciente')" />
+      <label for="mostrarSenha">Mostrar senha</label>
+    </div>
+    <button onclick="paginaPerfilPaciente()">Cadastrar</button>
+  </div>
+</div>

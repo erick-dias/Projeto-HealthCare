@@ -1,0 +1,56 @@
+<div class="conteudo">
+  <div id="tipo-pagina" hidden></div>
+  <div class="todo-conteudo">
+    <div class="todo">
+      <div class="buscar-medicos">
+        <div>
+          <h2>Lista de Médicos</h2>
+          <input type="text" name="" id="nome-medicos" onkeyup="buscarMedicoPorNome(this.value)" placeholder="Buscar Médicos..." />
+        </div>
+        <div class="especialidades">
+          <label for="especialidadeFiltro">Filtrar por especialidade:</label>
+          <select id="especialidadeFiltro" onchange="filtrarMedicoPorEspecialidade()" style="width: 100%; padding: 5px">
+            <option value="">Todas</option>
+            <option value="Cardiologia">Cardiologia</option>
+            <option value="Ortopedia">Ortopedia</option>
+            <option value="Dermatologia">Dermatologia</option>
+            <option value="Ginecologia">Ginecologia</option>
+            <option value="Neurologia">Neurologia</option>
+            <option value="Pediatria">Pediatria</option>
+            <option value="Oftalmologia">Oftalmologia</option>
+            <option value="Psiquiatria">Psiquiatria</option>
+            <option value="Endocrinologia">Endocrinologia</option>
+            <option value="Gastroenterologia">Gastroenterologia</option>
+            <option value="Urologia">Urologia</option>
+            <option value="Oncologia">Oncologia</option>
+            <option value="Nefrologia">Nefrologia</option>
+            <option value="Pneumologia">Pneumologia</option>
+            <option value="Hematologia">Hematologia</option>
+            <option value="Reumatologia">Reumatologia</option>
+            <option value="Infectologia">Infectologia</option>
+            <option value="Hepatologia">Hepatologia</option>
+            <option value="Imunologia">Imunologia</option>
+            <option value="Radiologia">Radiologia</option>
+            <option value="Angiologia">Angiologia</option>
+            <option value="Otorrinolaringologia">Otorrinolaringologia</option>
+            <option value="Geriatria">Geriatria</option>
+            <option value="Anestesiologia">Anestesiologia</option>
+            <option value="Emergencista">Emergencista</option>
+            <option value="Cirurgia Geral">Cirurgia Geral</option>
+            <option value="Cirurgia Plástica">Cirurgia Plástica</option>
+            <option value="Medicina do Esporte">Medicina do Esporte</option>
+            <option value="Medicina Intensiva">Medicina Intensiva</option>
+            <option value="Alergologia">Alergologia</option>
+          </select>
+        </div>
+      </div>
+
+      <button class="botao-cadastrar" onclick="paginaEditarInfoMedicos()">Cadastrar Novo Médico</button>
+    </div>
+    <div class="conteudo-lista-medicos">
+      <div class="lista-medicos" id="lista-medicos">
+        <!-- CONTEUDO MEDICOS -->
+      </div>
+    </div>
+  </div>
+</div>
