@@ -21,7 +21,7 @@
 
 ## Tecnologias Utilizadas
 
-- **HTML5 | CSS3  | Javascript **
+- **HTML5 | CSS3  | Javascript**
 - **Google Fonts** para tipografia
 - **Figma** para prototipação do design
 
