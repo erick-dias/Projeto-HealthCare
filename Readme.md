@@ -28,7 +28,8 @@
 ## Design
 
 Confira o design completo do projeto no [Figma](https://www.figma.com/design/UyYAS6DaverEpPDHsirkLk/Teste-Clinica-M%C3%A9dica?node-id=0-1&t=PuHKlU9i9ENhSD8S-1).
-Confira o HealthCare funcinando completamente em:(https://projeto-health-care.vercel.app/).
+
+Confira o HealthCare funcinando completamente em: https://projeto-health-care.vercel.app/
  
 ![image](https://github.com/user-attachments/assets/ca0ed13a-02fa-4da8-a2b4-d851680a4a3c)
 ![image](https://github.com/user-attachments/assets/afd2eef2-c9dd-4125-abf1-e1f0d9133fbe)
